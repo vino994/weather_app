@@ -1,21 +1,58 @@
-
-
-.App{
-  width: 70vw;
+.App {
+  width: 90vw;
   height: 90vh;
-  background-color:red;
+  margin: auto;
   color: white;
   display: flex;
   position: relative;
-  border-radius: 10px;
-  transition: .5s;
+  border-radius: 15px;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Overlay for readability */
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-.errormsg{
-  color: red;
-  font-size: 40px;
+
+.errormsg {
+  color: #ff5252;
+  font-size: 22px;
+  font-weight: bold;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%,-50%);
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .App {
+    width: 95vw;
+    height: auto;
+    min-height: 100vh;
+    border-radius: 0;
+  }
+
+  .overlay {
+    padding: 15px;
+  }
+
+  .errormsg {
+    font-size: 18px;
+    top: 10px;
+  }
 }

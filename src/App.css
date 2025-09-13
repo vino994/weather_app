@@ -1,0 +1,21 @@
+
+
+.App{
+  width: 70vw;
+  height: 90vh;
+  background-color:red;
+  color: white;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  transition: .5s;
+  justify-content: space-between;
+}
+.errormsg{
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}

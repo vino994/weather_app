@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Winky Rough", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
